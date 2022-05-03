@@ -18,7 +18,6 @@
 body {
   font-family: var(--main-font), sans-serif;
   font-size: 16px;
-  line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
 }
@@ -55,7 +54,7 @@ body {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2px;
+  line-height: 1.2;
   color: var(--accent-cl);
 }
 .logo .logo-mode-dark {
@@ -114,7 +113,6 @@ body {
   background-color: var(--accent-cl);
 }
 
-/* НЕ розумію чи варто тут писати ховер? ефукту наведення намає.... */
 .hero-btn:hover,
 .hero-btn:focus {
   color: #ffffff;
@@ -178,7 +176,7 @@ body {
 .address-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   color: var(--main-bg-cl);
 }
 
@@ -198,6 +196,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
 }
 
